@@ -9,6 +9,7 @@
 name: jdc-1_openwrt-21.02
 
 on:
+  workflow_dispatch:
 # release:
 #   types: published
 # push:
