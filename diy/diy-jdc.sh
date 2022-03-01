@@ -19,7 +19,7 @@ echo '默认开启wifi'
 sed -i 's/set wireless.radio${devidx}.disabled=1/set wireless.radio${devidx}.disabled=0/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 echo '修改版本显示'
-sed -i "s/%D %V %C'/%D %V %C Compiled by YifeiMfd'/g" package/base-files/files/etc/openwrt_release
+sed -i "s/%D %V %C'/%D %V %C Compiled by Yok'/g" package/base-files/files/etc/openwrt_release
 
 echo '删除临时文件'
 rm -rf /tmp/luci-modulecache/
