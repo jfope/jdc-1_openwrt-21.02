@@ -11,9 +11,9 @@ name: jdc-1_openwrt-21.02
 on:
 # release:
 #   types: published
- push:
-   branches:
-     - openwrt-21.02
+# push:
+#   branches:
+#     - openwrt-21.02
 #   paths:
 #     - 'Lean'
 #   schedule:
